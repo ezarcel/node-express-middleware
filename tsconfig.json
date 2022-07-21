@@ -1,0 +1,11 @@
+{
+  "exclude": ["./dist", "./node_modules"],
+  "compilerOptions": {
+    "declaration": true,
+    "inlineSourceMap": true,
+    "module": "ES2020",
+    "moduleResolution": "NodeNext",
+    "outDir": "./dist",
+    "target": "ES2020"
+  }
+}

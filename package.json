@@ -1,0 +1,29 @@
+{
+  "name": "@ezarcel/express-middleware",
+  "version": "1.0.0",
+  "description": "Express middleware I use in all my projects",
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "postinstall": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezarcel/node-express-middleware.git"
+  },
+  "author": "ezarcel",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ezarcel/node-express-middleware/issues"
+  },
+  "homepage": "https://github.com/ezarcel/node-express-middleware#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "@ezarcel/log": "github:ezarcel/node-log",
+    "@ezarcel/tools": "github:ezarcel/node-tools"
+  }
+}
