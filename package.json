@@ -1,6 +1,6 @@
 {
   "name": "@ezarcel/express-middleware",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express middleware I use in all my projects",
   "type": "module",
   "exports": "./dist/index.js",
