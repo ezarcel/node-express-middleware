@@ -1,5 +1,5 @@
 import _log from "@ezarcel/log";
-import { padding } from "@ezarcel/tools/text";
+import { padding } from "@ezarcel/tools";
 
 import type { RequestHandler } from "express";
 import { performance as perf } from "perf_hooks";
